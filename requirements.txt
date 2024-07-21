@@ -4,8 +4,4 @@ langchain_openai
 langchain_community
 langchain_core
 duckduckgo-search
-<<<<<<< HEAD
 wikipedia
-=======
-wikipedia
->>>>>>> f74db5d (update)
