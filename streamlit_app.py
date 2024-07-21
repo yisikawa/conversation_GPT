@@ -68,3 +68,4 @@ if prompt:
         # response = chat_model.invoke(messages)
         st.markdown(response)
     st.session_state.messages.append({"role": "assistant","content":response})
+
