@@ -38,7 +38,7 @@ if "agent_chain" not in st.session_state:
 # else:
 
 #     # Create an OpenAI client.
-# os.environ["OPENAI_API_KEY"] = st.secrets.OpenAIAPI.openai_api_key
+os.environ["OPENAI_API_KEY"] = st.secrets.openai_api_key
     
 st.title("🎈 langchain-streamlit-app")
 
