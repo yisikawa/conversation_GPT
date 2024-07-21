@@ -8,6 +8,7 @@ from langchain.callbacks import StreamlitCallbackHandler
 from langchain.memory import ConversationBufferMemory
 from langchain.prompts import MessagesPlaceholder
 
+os.environ["OPENAI_API_KEY"] = st.secrets.openai_api_key
 def create_agent_chain():
     chat = ChatOpenAI(
         model = "gpt-4o-mini",
@@ -39,7 +40,7 @@ if "agent_chain" not in st.session_state:
 
 #     # Create an OpenAI client.
 
-os.environ["OPENAI_API_KEY"] = st.secrets.openai_api_key
+
     
 st.title("🎈 langchain-streamlit-app")
 
