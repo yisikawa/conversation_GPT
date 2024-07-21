@@ -32,14 +32,13 @@ def create_agent_chain():
 if "agent_chain" not in st.session_state:
     st.session_state.agent_chain = create_agent_chain()
     
-st.write("OPENAI_API_KEY:", st.secrets["OpenAI API Key"])
 # openai_api_key = st.secrets["OpenAI API Key"]
 # if not openai_api_key:
 #     st.info("Please add your OpenAI API key to continue.", icon="🗝️")
 # else:
 
 #     # Create an OpenAI client.
-os.environ["OPENAI_API_KEY"] = st.secrets.OpenAIAPI.openai_api_key
+# os.environ["OPENAI_API_KEY"] = st.secrets.OpenAIAPI.openai_api_key
     
 st.title("🎈 langchain-streamlit-app")
 
