@@ -42,7 +42,7 @@ if "agent_chain" not in st.session_state:
 
 
     
-st.title("🎈 langchain-streamlit-app")
+st.title("🎈 Conversation GPT-4o-mini")
 
 if "messages" not in st.session_state:
     st.session_state.messages = []
